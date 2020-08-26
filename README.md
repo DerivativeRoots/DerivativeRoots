@@ -1,5 +1,2 @@
-# Finding polynomial roots through recursive derivative search
-
-This notebook is an attempt at creating a method to find derivatives of polynomials using a binary search method with limits defined by recursive derivatives.
-
-The method is better described in the notebook, and is, as far as we know, not known and not taught, even though it's extremely simple to understand and describe.
+This Jupyter notebood presents a Python code for an algorithm that finds all the real roots of a polynomial, using the roots of its derivative to obtain isolating intervals. Roots of the derivative are found by recursive applications of the method, until a first degree polynomial is found. 
+We present arbitrary precision mpmath Python code for the algorithm, tests with notorious polynomials, and auxiliary functions including a test for the number of real roots based on Sturm's theorem.
